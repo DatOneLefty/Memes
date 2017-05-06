@@ -31,6 +31,8 @@ function update() {
 
 
 function draw(topfont,botfont) {
+  topfont = topfont.toUpperCase();
+  botfont = botfont.toUpperCase();
 ctx.font = "40px Impact";
 ctx.fillStyle = 'white';
 canvas.textAlign = "center";
