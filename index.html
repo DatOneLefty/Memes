@@ -1,0 +1,30 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Memes - make some memes!</title>
+  <link rel="stylesheet" href="memes.css">
+</head>
+<body>
+<nav>
+  <a href='index.html'><button class='head'>Memes</button></a>
+  <a href='index.html'><button class='main'>Generate</button></a>
+</nav>
+<br>
+<center>
+ <h1>Memes</h1>
+</center>
+<table>
+  <tr>
+    <td>
+      <center>
+      <canvas id="meme"></canvas>
+</center>
+</td>
+<td>
+  <b>Your AMAZING empty meme file: </b><input type="file" id="imageLoader" name="imageLoader"/><br>
+<b>Top text: </b><input id='top' oninput="update()"><br>
+<b>Bottom text: </b><input id='bottom' oninput="update()"><br>
+</td>
+</tr>
+</table>
+</body>
+<script src='memes.js'></script>
